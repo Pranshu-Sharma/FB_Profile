@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu" rel="stylesheet">
+  </head>
+  <style>
+    h1{
+      text-align: center;
+      color: white !important;
+      font-family: 'Baloo Tammudu', cursive;
+    }
+    body{
+      margin: 30px;
+    }
+    .jumbotron{
+      background-color: #4267B2 !important;
+    }
+    #email,#id,#name,#birth,#post{
+      color: #00838f;
+    }
+  </style>
+  <body>
+    <div class="jumbotron">
+        <h1>Welcome to my Facebook Profile Info Page</h1>
+    </div>
+      <div class="container">
+        <ul class="nav nav-pills nav-justified">
+          <li class="active"><a href="#Home" data-toggle="tab">Basic Info</a></li>
+          <li><a href="#Posts" data-toggle="tab">Posts</a></li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane fade in active" id="Home">
+            <br><button type="button" class="btn btn-primary" id="i">Get Info</button>
+            <br><br><label for="email">Email :</label>
+            <p id="email"></p>
+            <br><label for="id">ID :</label>
+            <p id="id"></p>
+            <br><label for="name">Name :</label>
+            <p id="name"></p>
+            <br><label for="birth">Birthday :</label>
+            <p id="birth"></p>
+          </div>
+
+          <div class="tab-pane fade" id="Posts">
+            <br><button type="button" class="btn btn-primary" id="p">Get Posts</button>
+            <br><br><label for="post">Posts :</label>
+            <p id="post"></p>
+          </div>
+        </div>
+      </div>
+
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="fbprofile.js"></script>
+
+</html>
