@@ -1,0 +1,36 @@
+/*for navbar*/
+#n{
+  font-size: 3vmax;
+}
+#nav{
+  font-size: 2vmax;
+}
+
+/*for headings*/
+h1{
+  font-size: 4vmax;
+  color: #424242;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+h2{
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  font-size: 2vmax;
+  color: #818993;
+}
+
+/*for body*/
+#e,#f{
+  color: #365899;
+}
+.container{
+  font-size: 2.5vmax;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+body {
+background-image: url(1.jpg);
+background-size: cover;
+background-attachment: fixed;
+}

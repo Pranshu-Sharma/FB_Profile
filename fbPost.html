@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Facebook Info Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fb.css">
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#" id="n">Facebook</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class=""><a href="index.html" id="nav">Profile Info</a></li>
+          <li><a href="#" id="nav">Facebook Feed</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="container">
+      <h1>Welcome to <span id="f">Facebook</span> Feed Page</h1>
+      <h2>This page uses Access Token generated from Graph Api Explorer</h2>
+
+
+      <br><label for="post" id="e">Feed :<br></label>
+      <p id="post"></p>
+      <br><button type="button" class="btn btn-primary" id="p">Get Feed</button>
+    </div>
+
+
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="fbprofile.js"></script>
+</html>
